@@ -1,0 +1,330 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+  background-color: #EFEFF1;
+}
+
+.header-inner{
+  background-color: transparent;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  overflow: hidden;
+}
+.header-inner i{
+  font-size: 1.5rem;
+  margin-bottom: 7px;
+  margin-right: 6px;
+  color: #86B6F6;
+  transform:  translatey(0);
+  animation: 1s linear 1 effect;
+}
+.header-inner img,.he-logo{
+  position: fixed;
+  top: 5px;
+  left: 3px;
+}
+.header-inner img{
+  transform: rotateY(180deg);
+  animation: 3s linear 1 effect2;
+}
+.top-img{
+  background-image: url("social-media.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  animation: 1s linear 1 effect2;
+}
+.header{
+  height: 3rem;
+}
+/*=======================================
+                 YouTube
+  =======================================*/
+.youtube{
+  width: 100%;
+  background-color: #fff;
+}
+.you-header{
+  position: relative;
+  width: 100%;
+  height: 4rem;
+  background: #F3F8FF;
+  background-size: cover;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #3E7DA9, #9D2960) 1;
+  text-align: center;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}/*
+.you-header::before{
+  content: "";
+  position: absolute;
+  background: #9D2960;
+  width: 110%;
+  height: 4rem;
+  animation: 4s linear 1 bo-anime;
+}
+.you-header::after{
+  content: "";
+  position: absolute;
+  background: #3E7DA9;
+  width: 110%;
+  height: 4rem;
+ animation: 4s linear 1 bo-anime;
+  inset: 4px;
+}
+@keyframes bo-anime{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}*/
+.you-header p{
+  color: #FD0000;
+  height: fit-content;
+  width: fit-content;
+  text-align: center;
+  background: #F3F8FF;
+  text-shadow: #222222 1px 1px 2px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: bolder;
+}
+.you-header img{
+  height: 85px;
+  background: transparent;
+}
+.you1,.you3,.you2{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.you1 i{
+  
+  font-size: 5rem;
+  color: #D61C1C;
+  text-shadow: 1px 1px 1px  #D6D6D6,
+               1px 2px 1px  #D6D6D6,
+               1px 3px 1px  #D6D6D6,
+               1px 4px 1px  #D6D6D6,
+               1px 5px 1px  #D6D6D6,
+               1px 6px 1px  #D6D6D6,
+       1px 9px 9px rgba(16, 16, 16, 0.4);
+ animation: 2s ease-in-out 1 you-effect;
+}
+.you2 i{
+  font-size: 5rem;
+  color: #D61C1C;
+  animation: 2.5s ease-in-out 1 you-effect;
+  text-shadow: 1px 1px 1px  #D6D6D6,
+               1px 2px 1px  #D6D6D6,
+               1px 3px 1px  #D6D6D6,
+               1px 4px 1px  #D6D6D6,
+               1px 5px 1px  #D6D6D6,
+               1px 6px 1px  #D6D6D6,
+       1px 9px 9px rgba(16, 16, 16, 0.4);
+}
+.you3 i {
+  font-size: 5rem;
+  color: #D61C1C;
+  animation: 3s ease-in-out 1 you-effect;
+  text-shadow: 1px 1px 1px #D6D6D6,
+  1px 2px 1px #D6D6D6,
+  1px 3px 1px #D6D6D6,
+  1px 4px 1px #D6D6D6,
+  1px 5px 1px #D6D6D6,
+  1px 6px 1px #D6D6D6,
+  1px 9px 9px rgba(16, 16, 16, 0.4);
+}
+.you1 p{
+  width: 250px;
+  height: 2.5rem;
+  background-color: transform;
+  font-size: 1.9rem;
+  font-weight: bolder;
+  font-family: 'Space Grotesk', sans-serif;
+  text-align: center;
+  padding: 5px;
+  margin-left: 20px;
+ /* border-bottom-right-radius: 40px;
+  border: 2px solid #000;
+  z-index: 2;
+  border-left: none;*/
+  
+}
+.you2 p{
+  width: 250px;
+  height: 2.5rem;
+  background-color: transform;
+  font-size: 1.9rem;
+  font-weight: bolder;
+  font-family: 'Space Grotesk', sans-serif;
+  text-align: center;
+  padding: 5px;
+  margin-left: 20px;
+}
+.you3 p{
+  width: 250px;
+  height: 2.5rem;
+  background-color: transform;
+  font-size: 1.9rem;
+  font-weight: bolder;
+  font-family: 'Space Grotesk', sans-serif;
+  text-align: center;
+  padding: 5px;
+  margin-left: 20px;
+}
+.you-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 20rem;
+}
+
+/*=======================================
+                 Facebook 
+  =======================================*/
+  
+.facebook{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  width: 100%;
+  background: #fff;
+}
+
+.facebook .face-inner{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 3.5rem;
+  width: 80%;
+  background: #fff;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 52px;
+  border-bottom-left-radius: 52px;
+  overflow: hidden;
+  animation: 3s ease-in-out  1 facebook;
+  border: 2px solid #3B3B3B;
+  text-decoration: none;
+}
+.fa-facebook{
+  margin: 0px;
+  margin-left: -2px;
+  margin-bottom: -1px;
+  font-size: 3.7rem;
+  animation: 1s ease-out 1 face-icon;
+  
+}
+@keyframes face-icon{
+  0%{
+    transform: translateX(-55px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+
+@keyframes facebook{
+  0%{
+     width: 3.5rem;
+     
+  }
+  100%{
+    width: 80%;
+  }
+}
+.facebook .face-inner p{
+  
+  color: #2e7eff;
+  font-size: 1.6rem;
+  margin-left: 10px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #3B3B3B,
+               1px 3px 3px #3B3B3B,
+               1px 3.5px 3px #3B3B3B,
+               1px 4px 3px #3B3B3B;
+  display: none;
+  animation: 1s ease-in-out 1 personal;
+}
+@keyframes personal{
+  from{
+    opacity: 0%;
+  }
+  to{
+    opacity: 100%;
+  }
+}
+
+
+
+
+
+/*=======================================
+                 Animation 
+  =======================================*/
+@keyframes effect {
+  from {
+    transform: translatex(32px);
+  }
+  to {
+    transform: translatex(0px);
+  }
+}
+@keyframes logo-effect {
+  from {
+    transform: rotatey(-180deg);
+  }
+  to {
+    transform: rotatey(0deg);
+  }
+}
+
+
+@keyframes effect2 {
+  from {
+   /* http://localhost:7700/social.html*/
+    opacity: 0%;
+  }
+  to {
+    /*transform: rotatey(0deg);*/
+    opacity: 100%;
+  }
+}
+@keyframes you-effect {
+  0%{
+    transform: rotatey(180deg);
+    opacity: 0%;
+  }/*
+  33%{
+    transform: rotatey(-180deg);
+    opacity: 100%;
+  }*/
+  100%{
+    transform: rotatey(0deg);
+    opacity: 100%;
+  }
+}
+@keyframes you-effect2 {
+  from{
+    color: #fff;
+  }
+  to{
+   color: #000;
+  }
+}

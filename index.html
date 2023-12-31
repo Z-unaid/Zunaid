@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit&display=swap" rel="stylesheet">
+
+  <title>Login Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="top">
+      <div class="logo">
+        <img src="header-logo.png" alt="">
+      </div>
+    </div>
+    <div class="main">
+      <div class="na">
+        <input type="text" id="name" name="name
+    " required maxlength="29">
+        <label>Enter name</label>
+        <i onclick="clear1()" class="fa-solid fa-xmark cross-icon"></i>
+      </div>
+      <div class="pass">
+        <input type="password" id="pass-key" name="password" required>
+        <label>Entre passkey</label><!--
+    <i class="fa-solid fa-lock"></i> --><br>
+        <a class="forgot" href="#">Forgot passkey ?</a>
+      </div>
+      <button class="get-acess" onclick="checkPasskey()">Get Acess</button>
+      <button type="submit" class="get-passkey">Get passkey</button>
+    </div>
+  </div>
+
+  <div class="wrong">
+    <p class="denied">Access with any person named <span class="span"></span> is not allowed.</p>
+    <button onclick="okButton()">OK</button>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- Desktop window-->
+  
+  
+  
+  
+  </main>
+  <div class="desktop">
+    <p class="no-respo">
+      <img src="error.png" alt="">
+    </p>
+    <p class="Note">
+      To Access This Website
+    </p>
+    <div class="note-list-outer">
+      
+   
+    <img src="screen.png" al="Smartphone"        class="phone">
+    <div>
+    <ul class="note-list">
+      <li>Screen <span>Width</span> Should Less Than <span>790 PX</span></li> 
+      <li>Screen <span>Height</span> Should Less Than <span>395 PX</span></li>
+      <li>Only Supports in <span>Smartphones</span><span></span></li>
+      <li>Screen <span>Resolution</span> Should Approximately <span>2400 × 1080</span></li>
+      
+    </ul>
+    
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Devices We Have Checked</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Xiaomi 12</td>
+        </tr>
+        <tr>
+          <td>Poco F4 GT</td>
+        </tr>
+        <tr>
+          <td>Samsung Galaxy S21 5G</td>
+        </tr>
+        <tr>
+          <td>Samsung Galaxy S21 Plus 5G</td>
+        </tr>
+        <tr>
+          <td>OnePlus 9</td>
+        </tr>
+        <tr>
+          <td>Samsung Galaxy S20 FE</td>
+        </tr>
+        <tr>
+          <td>Xiaomi Mi 11i</td>
+        </tr>
+        <tr>
+          <td>realme GT Neo 2</td>
+        </tr>
+        <tr>
+          <td>Xiaomi Black Shark 4</td>
+        </tr>
+        <tr>
+          <td>Samsung Galaxy Note 20</td>
+        </tr>
+        <tr>
+          <td>Poco F4</td>
+        </tr>
+        <tr>
+          <td>Samsung Galaxy A52s 5G</td>
+        </tr>
+        <tr>
+          <td>ZTE Nubia Red Magic 7S Pro</td>
+        </tr>
+
+        
+      </tbody>
+    </table>
+    
+    
+    </div>
+   
+    </div>
+         <div class="desktop-version">
+           <a href=""><i class="fa-solid fa-display" style="color: #000000;"></i>
+           <p>Desktop site</p></a>
+         </div>
+         <div class="phone-version">
+           <a href=""><i class="fa-solid fa-mobile-screen-button" style="color: #000000;"></i>
+           <p>Smartphone site</p></a>
+         </div>
+        <p class="bott-text">Note - This Website Only Supports in smartphones</p>
+        <div class="contact-me">
+          <a href="https://wa.me/919690578859?text=Need Help"><p>Contact me - </p>
+          <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    
+  </div>
+
+</body>
+
+  <script src="login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,298 @@
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Zunaid</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+<main class="all-con">
+  <main>
+    <section class="introduction">
+      <div class="header-logo">
+        <img class="he-logo" src="header-logo.png" alt="Logo" height="45">
+
+      </div>
+
+
+
+      <div class="zunaid">
+        ZUNAID
+      </div>
+
+
+
+
+
+      <div class="type-cant">
+        <p class="hi">Hi, <span class="type-text"></span></p>
+
+      </div>
+
+      <!-- Java script -->
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed(".type-text", {
+          strings: [" I'm Zunaid", "How can I Help you"],
+          typeSpeed: 50,
+          backSpeed: 35,
+          loop: true
+        });
+      </script>
+
+    </section>
+
+    <section class=options>
+      <div class="menu-bar">
+        <div class="menu1"></div>
+        <div class="menu2"></div>
+        <div class="menu3"></div>
+      </div>
+
+
+      <div class="slide-bar">
+
+        <p class="profile"><img class="prof-logo" src="profile.png" alt="profile" height="50"> <span class="prof-name">Zunaid</span></p>
+
+        <div class="opt">
+          <p class="opt1"> <a href="index.html">Home</a> <a href="$"><i class="fa-solid fa-caret-down fa-rotate-270" style="color: #000000;"></i></a></p>
+
+          <p class="opt2" onclick="showPremium1()"> <a>Education</a><a><i class="fa-solid fa-caret-down fa-rotate-270" style="color: #000000;"></i></a></p>
+
+          <p class="opt3" onclick="showPremium2()"><a >City & State</a><a <i class="fa-solid fa-caret-down fa-rotate-270" style="color: #000000;"></a></i></p>
+
+          <p class="opt5" onclick="showPremium3()"><a >Social Media</a><a <i class="fa-solid fa-caret-down fa-rotate-270" style="color: #000000;"></i></a></p>
+
+          <p class="opt4"  onclick="notFound()"><a>Terms & Conditions</a><a><i class="fa-solid fa-caret-down fa-rotate-270" style="color: #000000;"></i></a></p>
+
+          <p class="opt5"  onclick="notFound()"><a>Privacy Policy</a><a ><i class="fa-solid fa-caret-down fa-rotate-270" style="color: #000000;"></i></a></p>
+
+        </div>
+  
+      </div>
+      
+      <div class="premium-passkey">
+        <p class="required">Premium Acess</p><i class="fa-solid fa-xmark close" onclick="hidePremium()"></i>
+        <div class="pass">
+    <input type="password" id="pass-key" name="password" required>
+    <label class="enter">Premium passkey</label><br>
+    <a class="forgot" href="#">Forgot passkey ?</a>
+      </div>
+      <button class="get-acess" onclick="acess1">Get Acess</button>
+      <a class="get-pass" href="#">Get Premium Passkey</a>
+      </div>
+      
+    </section>
+    <section class="my-intro">
+      <div class="intro-inner">
+        <div class="application">
+
+          Hello Gentalman <br><br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; May be have you read my name on the top of website. If not so I'm <b>Zunaid</b>. I am <b>17</b> Years Old. I lives in <b>Behat</b>(S.R.E). I'm Student of BCA (Bachelor of Computer Applications). Now I am in first year. I have many Soft & Hard Skills.<br>If You want to know more about me you can visit all related link.<br><br>
+          &emsp;&emsp;&emsp;&emsp;&emsp; Thanks For Reading
+        </div>
+
+
+
+      </div>
+    </section>
+    <section class="more-about">
+      <div class="below-info">
+        You can also get information about all the things in detail below.
+      </div>
+    </section>
+    <section class="addition-info">
+      <div class="soft-hard-skills">
+        <p class="soft-prof"><img class="sof-logo" src="soft-skills.png" alt="profile" height="43"> <span class="soft-name">Soft Skills</span></p>
+        <div class="soft-skills">
+
+          <p class="skill1"><a href="detail.html#com"><i class="fa-solid fa-circle-chevron-right"></i></a> <a href="details.html#com">Communication</a></p>
+
+          <p class="skill2"><a href="details.html#pro"><i class="fa-solid fa-circle-chevron-right"></i></a> <a href="details.html#pro">Problem Solving</a></p>
+
+          <p class="skill3"><a href="details.html#ada"><i class="fa-solid fa-circle-chevron-right"></i></a> <a href="details.html#ada">Adaptability</a></p>
+
+          <p class="skill4"><a href="details.html#emo"><i class="fa-solid fa-circle-chevron-right"></i></a> <a href="details.html#emo">Emotions Intelligence</a></p><!--
+        <p class="skill5"> <a href="#">Home</a></p>       
+        <p class="skill6"> <a href="#">Home</a></p>-->
+        </div>
+      </div>
+      <hr>
+
+      <div class="soft-hard-skills">
+        <p class="soft-prof"><img class="sof-logo" src="hard-skill.png" alt="profile" height="43"> <span class="soft-name">Hard Skills</span></p>
+        <div class="soft-skills">
+
+          <p class="skill1"><a href="details.html#prog"><i class="fa-solid fa-circle-chevron-right"></i></a> <a href="details.html#prog">Programming</a></p>
+
+          <p class="skill2"><a href="details.html#proj"><i class="fa-solid fa-circle-chevron-right"></i></a> <a href="details.html#proj">Project Management</a></p>
+
+          <p class="skill3"><a href="details.html#data"><i class="fa-solid fa-circle-chevron-right"></i></a> <a href="details.html#data">Data Analysis</a></p>
+
+          <p class="skill4"><a href="details.html#mach"><i class="fa-solid fa-circle-chevron-right"></i></a> <a href="details.html#mach">Machine Learning</a></p><!--
+        <p class="skill5"> <a href="#">Home</a></p>       
+        <p class="skill6"> <a href="#">Home</a></p>-->
+        </div>
+
+      </div>
+      <hr>
+
+    </section>
+    <section class="detail-info">
+      <div class="detail-inner">
+        <a href="details.html" class="detail-link">Click me for detail Information</a>
+      </div>
+    </section>
+
+
+  </main>
+  <footer>
+    <div class="list">
+      <p class="one" onclick="notFound()">Privacy Statement<i class="fa-solid fa-chevron-right"></i></p>
+      <p class="two" onclick="notFound()">Security Statement<i class="fa-solid fa-chevron-right"></i></p>
+      <p class="three" onclick="notFound()">Send me Feedback<i class="fa-solid fa-chevron-right"></i></p>
+      <a class="four" href="https://wa.me/919690578859">Contact me
+        <i class="fa-solid fa-chevron-right"></i>
+      </a>
+      <p class="five"  onclick="notFound()">Report a Security Issue
+        <i class="fa-solid fa-chevron-right"></i>
+      </p>
+      <p class="six" onclick="notFound()">Don't Share My Personal Info
+        <i class="fa-solid fa-chevron-right"></i>
+      </p>
+      <p class="seven" onclick="notFound()">License
+        <i class="fa-solid fa-chevron-right"></i>
+      </p>
+    </div>
+    <hr>
+    <div class="social-media">
+      <p class="facebook"><a href="https://www.facebook.com/profile.php?id=100054876406368&mibextid=ZbWKwL"><i class="fa-brands fa-facebook" style="color: #B6C8D6;"></i></a></p>
+      <p class="twitter"><a href="https://twitter.com/Junaid969057"><i class="fa-brands fa-twitter" style="color: #B6C8D6"></i></a></p>
+      <p class="linked-in"><a href=""><i class="fa-brands fa-linkedin" style="color: #B6C8D6;"></i></a></p>
+      <p class="gmail"><a href="mailto: ja7667924@gmail.com"><i class="fa-solid fa-envelope" style="color: #B6C8D6;"></i></a></p>
+
+    </div>
+    <div class="company-name">
+      <p class="company-inner">ZUNAID</p>
+      <p class="copyright">
+        copyright ©️ 2023 Zunaid, Inc.
+      </p>
+    </div>
+    <div class="last">
+      <p class="instructions">
+        <a class="legal" href="404.html" target="_blank" >Legal Stuff</a>
+        <a class="privacy" href="404.html" target="_blank" >Privacy Policy</a>
+      </p>
+    </div>
+
+    <div class="last-2">
+      <p class="instructions-2">
+        <a class="security" href="404.html" target="_blank" >Security</a>
+        <a class="website" href="404.html" target="_blank" >Website Acceleration</a>
+        <a class="ads" href="404.html" target="_blank" >Ads Free</a>
+
+      </p>
+    </div>
+  </footer>
+</main>
+  <div class="desktop">
+    <p class="no-respo">
+      <img src="error.png" alt="">
+    </p>
+    <p class="Note">
+      To Access This Website
+    </p>
+    <div class="note-list-outer">
+      
+   
+    <img src="screen.png" al="Smartphone"        class="phone">
+    <div>
+    <ul class="note-list">
+      <li>Screen <span>Width</span> Should Less Than <span>790 PX</span></li> 
+      <li>Screen <span>Height</span> Should Less Than <span>395 PX</span></li>
+      <li>Only Supports in <span>Smartphones</span><span></span></li>
+      <li>Screen <span>Resolution</span> Should Approximately <span>2400 × 1080</span></li>
+      
+    </ul>
+    
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Devices We Have Checked</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Xiaomi 12</td>
+        </tr>
+        <tr>
+          <td>Poco F4 GT</td>
+        </tr>
+        <tr>
+          <td>Samsung Galaxy S21 5G</td>
+        </tr>
+        <tr>
+          <td>Samsung Galaxy S21 Plus 5G</td>
+        </tr>
+        <tr>
+          <td>OnePlus 9</td>
+        </tr>
+        <tr>
+          <td>Samsung Galaxy S20 FE</td>
+        </tr>
+        <tr>
+          <td>Xiaomi Mi 11i</td>
+        </tr>
+        <tr>
+          <td>realme GT Neo 2</td>
+        </tr>
+        <tr>
+          <td>Xiaomi Black Shark 4</td>
+        </tr>
+        <tr>
+          <td>Samsung Galaxy Note 20</td>
+        </tr>
+        <tr>
+          <td>Poco F4</td>
+        </tr>
+        <tr>
+          <td>Samsung Galaxy A52s 5G</td>
+        </tr>
+        <tr>
+          <td>ZTE Nubia Red Magic 7S Pro</td>
+        </tr>
+
+        
+      </tbody>
+    </table>
+    
+    
+    </div>
+   
+    </div>
+         <div class="desktop-version">
+           <a href="#"><i class="fa-solid fa-display" style="color: #000000;"></i>
+           <p>Desktop site</p></a>
+         </div>
+         <div class="phone-version">
+           <a href="#"><i class="fa-solid fa-mobile-screen-button" style="color: #000000;"></i>
+           <p>Smartphone site</p></a>
+         </div>
+        <p class="bott-text">Note - This Website Only Supports in smartphones</p>
+        <div class="contact-me">
+          <a href="https://wa.me/919690578859?text=Need Help"><p>Contact me - </p>
+          <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    
+  </div>
+  <script src="home.js"></script>
+
+</body>
+
+</html>
