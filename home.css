@@ -761,7 +761,7 @@ tbody tr,td{
     display: none;
   }
 }*/
-@media (height > 798px) {
+@media (height > 395px) {
  .desktop{
    display: block;
  }
@@ -769,7 +769,7 @@ tbody tr,td{
    display: none;
  }
 }
-@media (height: < 798px) {
+@media (width: < 395px) {
   .desktop{
     display: none;
   }
