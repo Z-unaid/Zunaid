@@ -761,7 +761,7 @@ tbody tr,td{
     display: none;
   }
 }*/
-@media (height > 395px) {
+@media (width > 395px) {
  .desktop{
    display: block;
  }
