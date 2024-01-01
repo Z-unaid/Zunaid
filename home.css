@@ -933,3 +933,16 @@ tbody tr,td{
   color: #128C7E;
   font-size: 2.5rem;
 }
+
+
+
+
+
+
+
+/* Footer last 1 2*/
+
+
+.last,.last-2{
+   display: none;
+}
